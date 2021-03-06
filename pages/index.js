@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import MainDashboard from '../components/MainDashboard';
 import Map from '../components/Map';
 import Sidebar from '../components/Sidebar';
-import Timeline from '../components/Timeline';
 
 const HomePageStyles = styled.div`
   display: grid;
