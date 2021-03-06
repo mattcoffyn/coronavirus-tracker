@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     --grey: #4e4e4e;
     --lightGrey: hsl(0, 0%, 96%);
     --offWhite: #EDEDED;
-    --maxWidth: 1000px;
+    --maxWidth: 1600px;
     --bs: 0 1px 1px rgba(20,20,20,0.15),
           0 2px 2px rgba(20,20,20,0.15),
           0 4px 4px rgba(20,20,20,0.15),
@@ -33,8 +33,8 @@ const GlobalStyle = createGlobalStyle`
 
     box-sizing: border-box;
     font-size: 62.5%;
-    color: var(--black);
-    background: var(--offWhite);
+    color: var(--offWhite);
+    background: var(--gradient);
   }
   *, *:before, *:after {
     box-sizing: inherit;

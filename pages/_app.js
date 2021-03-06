@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import withData from '../lib/withData';
 import '../static/nprogress.css';
 import '../components/styles/Switch.css';
+import '../node_modules/react-vis/dist/style.css';
 
 //Binding events.
 Router.events.on('routeChangeStart', () => NProgress.start());

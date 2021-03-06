@@ -32,6 +32,7 @@ const DropDownItem = styled.div`
   border-left: 10px solid
     ${(props) => (props.highlighted ? '#F3B562' : 'rgba(10, 10, 30, 0.92)')};
   color: var(--offWhite);
+  font-size: 1.5rem;
   img {
     margin-right: 10px;
   }

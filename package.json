@@ -1,5 +1,5 @@
 {
-  "name": "print-factory",
+  "name": "coronavirus-tracker",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.2",
     "bulma-switch": "^2.0.0",
+    "country-list": "^2.2.0",
     "downshift": "^5.2.5",
     "framer-motion": "^3.2.1",
     "graphql": "^15.0.0",
@@ -38,7 +39,9 @@
     "react-datepicker": "^3.4.1",
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
+    "react-jvectormap": "^0.0.16",
     "react-spring": "^8.0.27",
+    "react-vis": "^1.11.7",
     "styled-components": "^5.1.0",
     "uuid": "^8.3.2"
   },

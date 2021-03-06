@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
-import Login from './Login';
+
 import Search from './Search';
 
 const Navigation = styled.nav`
   width: 100vw;
-  height: 75px;
+  height: 100px;
   position: fixed;
   z-index: 100;
   background-color: var(--black);
@@ -46,6 +46,11 @@ const Header = () => {
       </div>
 
       <div className="nav-section">
+        <Link href="/">
+          <a>
+            <h1>COVID-19 DASHBOARD</h1>
+          </a>
+        </Link>
         {/* Link Tag */}
         {/* Link Tag */}
         {/* Link Tag */}
@@ -54,8 +59,8 @@ const Header = () => {
       </div>
 
       <div className="nav-section">
-        <Search />
-        <Login />
+        <Search placeholder="Search country..." />
+        {/* <Login /> */}
       </div>
     </Navigation>
   );
