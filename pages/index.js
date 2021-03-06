@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <HomePageStyles>
       <Head>
-        <title>New Project</title>
+        <title>Coronavirus Tracker</title>
       </Head>
       <Sidebar />
       <MainContentStyles>

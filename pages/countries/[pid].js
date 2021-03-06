@@ -1,4 +1,5 @@
 import { gql, useQuery } from '@apollo/client';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import { numberWithCommas } from '../../lib/formatNumbers';
@@ -121,6 +122,9 @@ const Countries = () => {
 
   return (
     <SingleCountryStyles>
+      <Head>
+        <title>{data.country.name} || Coronavirus Tracker</title>
+      </Head>
       <CountryDashboardStyles>
         <h1 className="global-header">{data.country.name}</h1>
         <div>
